@@ -4,13 +4,13 @@
 
 static int __init my_init(void)
 {
-    printk(KERN_INFO "my module succefully loaded!\n");
+    printk(KERN_INFO "module succefully loaded!\n");
     return 0;
 }
 
 static void __exit my_exit(void)
 {
-    printk(KERN_INFO "my module succefully unloaded!\n");
+    printk(KERN_INFO "module succefully unloaded!\n");
 }
 
 module_init(my_init);
