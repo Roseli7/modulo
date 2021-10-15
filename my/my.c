@@ -18,7 +18,8 @@ module_exit(my_exit);
 
 MODULE_LICENSE("GPL");
 MODULE_AUTHOR("neo");
-MODULE_VERSION("all");
+MODULE_DESCRIPTION("LKM");
+MODULE_VERSION("0.01");
 
 
 
